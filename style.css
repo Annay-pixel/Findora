@@ -1,0 +1,214 @@
+.nav-logo {
+    margin-right: 10px;
+}
+
+nav {
+    margin-bottom: 0;
+}
+
+.hr1 {
+    margin: 0
+}
+
+.custom-underline {
+    position: relative;
+    padding-bottom: 8px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: none !important;
+    /* prevent Bootstrap override */
+}
+
+.custom-underline::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2.3px;
+    width: 0;
+    background-color: #0189BA;
+    transition: width 0.3s ease-in-out;
+}
+
+/* Animate underline on hover */
+.custom-underline:hover::after {
+    width: 100%;
+}
+
+/* Keep full underline if link is active */
+.custom-underline.active::after {
+    width: 100%;
+    background-color: cyan;
+}
+
+/* But still animate on hover even if active (restart animation) */
+.custom-underline.active:hover::after {
+    width: 0;
+    animation: swipeUnderline 0.4s forwards;
+    background-color: #0189BA;
+}
+
+@keyframes swipeUnderline {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+
+}
+
+.nav-link.active {
+    color: cyan !important;
+}
+
+
+.nav-link:hover {
+    color: #0189BA !important;
+}
+
+.nav-link {
+    border-bottom: none !important;
+}
+
+body {
+    color: white;
+    scroll-behavior: smooth;
+    background-image: url("/Images/PageBg.png");
+    background-size: 100% 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.filter1 {
+    margin-right: 5px;
+}
+
+.p-about {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.nav-link {
+    color: white;
+    font-size: 25px;
+}
+
+html {
+    margin: 0px;
+}
+
+.nav {
+    margin-right: 50px;
+}
+
+.back1 {
+    cursor: pointer;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.btn-div {
+
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card-subtitle {
+    --bs-text-opacity: 1;
+    color: rgba(80, 90, 99, 0.75)
+}
+
+.card {
+    border-radius: 3x;
+    position: relative;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 7px 0px;
+    background-image: url("/Images/CardBg.png");
+    color: rgba(255, 255, 255, 0.811);
+}
+
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 10px 0px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn-group {
+    position: static;
+    margin-top: 2px;
+    margin-right: 2px;
+}
+
+.hr1 {
+    color: white;
+    size: 2px;
+}
+
+footer {
+    padding-block: 1rem;
+    margin-bottom: 0;
+    color: wheat !important;
+}
+
+.f-ul {
+    list-style: none;
+    flex-wrap: wrap;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.f-ul li {
+    padding: 14px 16px;
+}
+
+.f-ul li a {
+    color: white;
+    padding-inline: 0.5rem;
+    text-decoration: none;
+}
+
+.f-ul li a:hover {
+    text-decoration: underline;
+}
+
+.hr {
+    margin-bottom: 15px;
+}
+
+.icon {
+    width: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.caveat {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}

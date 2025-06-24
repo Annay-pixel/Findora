@@ -1,0 +1,232 @@
+.a {
+    background-image: url("/Images/Apparels.png");
+    height: 80vh;
+    width: 100%;
+}
+
+body {
+    background-image: none;
+}
+
+
+
+.i {
+    background-image: url("/Images/IntroBg.png");
+}
+
+.div-btn {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+
+    justify-content: center;
+}
+
+h2 {
+    font-size: 100px;
+}
+
+.p {
+    font-size: 50px;
+    text-wrap: 2px;
+    display: inline;
+}
+
+.div-align-right {
+    text-align: right;
+}
+
+.txt {
+    margin-left: 20px;
+    margin-right: 60vh;
+}
+
+.txt1 {
+    margin-right: 20px;
+    margin-left: 60vh;
+}
+
+.ex-btn {
+    border-color: white;
+    border-radius: 0;
+    color: white;
+    padding: 20px 40px;
+    font-size: 20px;
+    margin-right: 20vh;
+    margin-top: 5vh;
+
+}
+
+.ex-btn1 {
+    border-color: white;
+    border-radius: 0;
+    color: white;
+    padding: 20px 40px;
+    font-size: 20px;
+    margin-left: 20vh;
+    margin-top: 5vh;
+
+}
+
+.ex-btn:hover {
+    border-radius: 0;
+    color: black;
+}
+
+.ex-btn1:hover {
+    border-radius: 0;
+    color: black;
+}
+
+.w {
+    background-image: url("/Images/Watch.png");
+    height: 80vh;
+    width: 100%;
+}
+
+.ac {
+    background-image: url("/Images/Accessories.png");
+    height: 80vh;
+    width: 100%;
+}
+
+.j {
+    background-image: url("/Images/Jewellery.png");
+    height: 80vh;
+    width: 100%;
+}
+
+.i {
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.choice {
+    margin-right: 50px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+    h2 {
+        font-size: 60px;
+    }
+
+    .p {
+        font-size: 28px;
+    }
+
+    .txt {
+        margin-right: 20px;
+    }
+
+    .txt1 {
+        margin-left: 20px;
+    }
+
+    .ex-btn,
+    .ex-btn1 {
+        padding: 15px 25px;
+        font-size: 18px;
+        margin: 20px 0;
+    }
+
+    .div-btn {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .choice {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    h2 {
+        font-size: 40px;
+    }
+
+    .p {
+        font-size: 20px;
+    }
+
+    .div-btn {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .txt,
+    .txt1 {
+        margin: 10px;
+        text-align: center;
+    }
+
+    .ex-btn,
+    .ex-btn1 {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}
+
+
+/* Fix background images centering */
+.a,
+.ac,
+.w,
+.j {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Contain the button section within its div */
+.i {
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+
+/* Default large size for desktops */
+.choice img {
+    max-width: 200px;
+    height: auto;
+    display: block;
+}
+
+@media (max-width: 1024px) {
+    .choice img {
+        max-width: 130px;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .choice img {
+        max-width: 100px;
+    }
+
+    .div-btn {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .choice img {
+        max-width: 85px;
+    }
+
+
+}
+
+@media (max-width: 375px) {
+    .choice img {
+        max-width: 85px;
+    }
+}
