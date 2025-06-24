@@ -18,15 +18,15 @@
     color: #0189BA;
 }
 
+.about-container p {
+    font-size: 25px;
+}
+
 .about-container ul {
     padding-left: 20px;
 }
 
 .about-container ul li {
     margin: 10px 0;
-    font-size: 25px;
-}
-
-.about-container p {
     font-size: 25px;
 }
