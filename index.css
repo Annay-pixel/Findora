@@ -1,5 +1,5 @@
 .a {
-    background-image: url("/Images/Apparels.png");
+    background-image: url("./Images/Apparels.png");
     height: 80vh;
     width: 100%;
 }
@@ -11,7 +11,7 @@ body {
 
 
 .i {
-    background-image: url("/Images/IntroBg.png");
+    background-image: url("./Images/IntroBg.png");
 }
 
 .div-btn {
@@ -79,19 +79,19 @@ h2 {
 }
 
 .w {
-    background-image: url("/Images/Watch.png");
+    background-image: url("./Images/Watch.png");
     height: 80vh;
     width: 100%;
 }
 
 .ac {
-    background-image: url("/Images/Accessories.png");
+    background-image: url("./Images/Accessories.png");
     height: 80vh;
     width: 100%;
 }
 
 .j {
-    background-image: url("/Images/Jewellery.png");
+    background-image: url("./Images/Jewellery.png");
     height: 80vh;
     width: 100%;
 }
