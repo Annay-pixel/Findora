@@ -203,29 +203,3 @@ footer {
 .hr {
     margin-bottom: 15px;
 }
-
-.icon {
-    width: 30px;
-    margin-right: 20px;
-    cursor: pointer;
-}
-
-.footer-flex {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.social-icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.caveat {
-    font-family: "Caveat", cursive;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-}
