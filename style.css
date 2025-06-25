@@ -76,8 +76,16 @@ footer {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     color: #ffffff;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.689);
+}
+
+nav {
     margin-bottom: 15px;
+}
+
+footer {
+    box-shadow: 0px -8px 20px 0 rgba(0, 0, 0, 0.689);
+    margin-top: 15px;
 }
 
 body.bg {
