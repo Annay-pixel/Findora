@@ -7,7 +7,7 @@
 
 .about-container h1 {
     font-size: 50px;
-    color: #0189BA;
+    color: #1BA6AB;
     margin-bottom: 20px;
 }
 
@@ -15,11 +15,12 @@
     font-size: 40px;
     margin-top: 40px;
     margin-bottom: 30px;
-    color: #0189BA;
+    color: #118C94;
 }
 
 .about-container p {
     font-size: 25px;
+    color: #D8E2E6;
 }
 
 .about-container ul {

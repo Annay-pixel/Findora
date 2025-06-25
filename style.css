@@ -92,10 +92,9 @@ body.bg {
     /* Prevents tiling */
     background-attachment: fixed;
     /* Creates a subtle parallax effect (optional) */
-    color: #F0F6F8;
-    /* Light text color for readability */
     font-family: 'Poppins', sans-serif;
     /* Ensures consistent branding */
+    color: #F0F6F8;
     scroll-behavior: smooth;
 }
 
