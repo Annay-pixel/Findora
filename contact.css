@@ -1,0 +1,22 @@
+.contact-container h1 {
+    font-size: 50px;
+    color: #1BA6AB;
+    margin: 10vh 0vh;
+}
+
+.contact-container {
+    margin-bottom: 40px;
+    display: block;
+}
+
+.card {
+    background-image: none;
+    background-color: white;
+    border-radius: 0px;
+    color: black;
+}
+
+.card-container {
+    display: block;
+    text-align: center;
+}
