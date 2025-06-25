@@ -2,12 +2,6 @@
     margin-right: 10px;
 }
 
-
-.hr1 {
-    margin: 0
-}
-
-
 .custom-underline {
     position: relative;
     padding-bottom: 8px;
@@ -98,7 +92,7 @@ body.bg {
     /* Prevents tiling */
     background-attachment: fixed;
     /* Creates a subtle parallax effect (optional) */
-    color: #f5f5f5;
+    color: #F0F6F8;
     /* Light text color for readability */
     font-family: 'Poppins', sans-serif;
     /* Ensures consistent branding */
