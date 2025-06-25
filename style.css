@@ -2,19 +2,11 @@
     margin-right: 10px;
 }
 
-nav {
-    margin-bottom: 15px;
-    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.399);
-}
 
 .hr1 {
     margin: 0
 }
 
-.bg {
-    background-image: url("./Images/PageBg.png");
-    background-size: 100% 100%;
-}
 
 .custom-underline {
     position: relative;
@@ -78,10 +70,31 @@ nav {
     border-bottom: none !important;
 }
 
-body {
-    color: white;
-    scroll-behavior: smooth;
+nav,
+footer {
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px;
+}
+
+body.bg {
+    background-image: url("./Images/PageBg.png");
+    background-size: cover;
+    /* Keeps aspect ratio, fills screen */
+    background-position: center center;
+    /* Keeps image centered */
+    background-repeat: no-repeat;
+    /* Prevents tiling */
+    background-attachment: fixed;
+    /* Creates a subtle parallax effect (optional) */
+    color: #f5f5f5;
+    /* Light text color for readability */
     font-family: 'Poppins', sans-serif;
+    /* Ensures consistent branding */
+    scroll-behavior: smooth;
 }
 
 .filter1 {
@@ -162,7 +175,6 @@ footer {
     padding-block: 1rem;
     margin-bottom: 0;
     color: wheat !important;
-    background-color: #0189BA;
 }
 
 .f-ul {
