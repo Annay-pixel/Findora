@@ -3,11 +3,17 @@
 }
 
 nav {
-    margin-bottom: 0;
+    margin-bottom: 15px;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.399);
 }
 
 .hr1 {
     margin: 0
+}
+
+.bg {
+    background-image: url("./Images/PageBg.png");
+    background-size: 100% 100%;
 }
 
 .custom-underline {
@@ -75,8 +81,6 @@ nav {
 body {
     color: white;
     scroll-behavior: smooth;
-    background-image: url("./Images/PageBg.png");
-    background-size: 100% 100%;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -150,7 +154,7 @@ a {
 }
 
 .hr1 {
-    color: white;
+    color: rgb(0, 0, 0);
     size: 2px;
 }
 
@@ -158,6 +162,7 @@ footer {
     padding-block: 1rem;
     margin-bottom: 0;
     color: wheat !important;
+
 }
 
 .f-ul {
