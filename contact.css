@@ -11,10 +11,23 @@
 
 .card {
     background-image: none;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.577);
     border-radius: 0px;
     color: black;
 }
+
+
+.btn {
+    background-color: #1BA6AB;
+    border-color: #1BA6AB;
+}
+
+.btn:hover {
+    background-color: #1BA6AB;
+    border-color: #1BA6AB;
+}
+
+
 
 .card-container {
     display: block;
