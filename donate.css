@@ -8,10 +8,10 @@
 }
 
 .about-container h1 {
-    font-size: 48px;
+    font-size: 60px;
     color: #1BA6AB;
     margin-bottom: 20px;
-    font-weight: 600;
+    font-weight: bold;
 }
 
 .donate-description {

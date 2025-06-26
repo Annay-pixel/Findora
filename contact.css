@@ -1,6 +1,7 @@
 .contact-container h1 {
-    font-size: 50px;
+    font-size: 60px;
     color: #1BA6AB;
+    font-weight: bold;
     margin: 10vh 0vh;
 }
 
@@ -11,7 +12,7 @@
 
 svg {
     margin-top: 10px;
-    fill: #1BA6AB;
+    fill: black;
 }
 
 hr.border {
@@ -22,14 +23,9 @@ hr.border {
     width: 450px;
     text-align: center;
     font-size: 25px;
-    background-color: rgba(255, 255, 255, 0.684);
-    color: white;
+    background-color: #f6f1e7a8;
+    color: rgb(0, 0, 0);
     border-radius: 3px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.684);
-}
-
-.contact-card:hover {
-    box-shadow: 0px 0px 20px rgb(0, 0, 0);
 }
 
 .btn {

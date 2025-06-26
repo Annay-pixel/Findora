@@ -6,9 +6,10 @@
 }
 
 .about-container h1 {
-    font-size: 50px;
+    font-size: 60px;
     color: #1BA6AB;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .about-container h2 {
