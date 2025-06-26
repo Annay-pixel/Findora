@@ -84,7 +84,7 @@ footer {
 }
 
 body.bg {
-    background-image: url("./Images/PageBg.png");
+    background-image: url("./Images/CardBg.png");
     background-size: cover;
     /* Keeps aspect ratio, fills screen */
     background-position: center center;

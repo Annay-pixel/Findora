@@ -35,7 +35,7 @@
     position: relative;
     margin: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 10px;
-    background-image: url("./Images/CardBg.png");
+    background-color: #0c1718;
     color: rgba(255, 255, 255, 0.811);
 }
 
