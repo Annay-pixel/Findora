@@ -1,0 +1,50 @@
+.btn {
+    background-color: #1BA6AB;
+    border-color: #1BA6AB;
+}
+
+.btn:hover {
+    background-color: cyan;
+    border-color: cyan;
+}
+
+.filter1 {
+    margin-right: 5px;
+    background-color: green !important;
+    border-color: green !important;
+}
+
+.filter1:hover {
+    background-color: green !important;
+    border-color: green !important;
+}
+
+.back1 {
+    cursor: pointer;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.card-subtitle {
+    --bs-text-opacity: 1;
+    color: rgba(80, 90, 99, 0.75)
+}
+
+.card {
+    border-radius: 3x;
+    position: relative;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 10px;
+    background-image: url("./Images/CardBg.png");
+    color: rgba(255, 255, 255, 0.811);
+}
+
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.664) 0px 0px 20px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

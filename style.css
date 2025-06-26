@@ -2,6 +2,7 @@
     margin-right: 10px;
 }
 
+
 .custom-underline {
     position: relative;
     padding-bottom: 8px;
@@ -98,10 +99,6 @@ body.bg {
     scroll-behavior: smooth;
 }
 
-.filter1 {
-    margin-right: 5px;
-}
-
 .p-about {
     margin-left: 10px;
     margin-right: 10px;
@@ -120,12 +117,6 @@ html {
     margin-right: 50px;
 }
 
-.back1 {
-    cursor: pointer;
-    margin-left: 10px;
-    text-decoration: none;
-}
-
 .btn-div {
 
     margin-left: 10px;
@@ -136,29 +127,7 @@ a {
     text-decoration: none;
 }
 
-.card-subtitle {
-    --bs-text-opacity: 1;
-    color: rgba(80, 90, 99, 0.75)
-}
 
-.card {
-    border-radius: 3x;
-    position: relative;
-    margin: 10px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 7px 0px;
-    background-image: url("./Images/CardBg.png");
-    color: rgba(255, 255, 255, 0.811);
-}
-
-.card:hover {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 10px 0px;
-}
-
-.card-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
 
 .btn-group {
     position: static;
@@ -166,10 +135,6 @@ a {
     margin-right: 2px;
 }
 
-.hr1 {
-    color: rgb(0, 0, 0);
-    size: 2px;
-}
 
 footer {
     padding-block: 1rem;

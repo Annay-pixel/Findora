@@ -5,31 +5,42 @@
 }
 
 .contact-container {
-    margin-bottom: 40px;
+    margin-bottom: 10vh;
     display: block;
 }
 
-.card {
-    background-image: none;
-    background-color: rgba(255, 255, 255, 0.577);
-    border-radius: 0px;
-    color: black;
+svg {
+    margin-top: 10px;
+    fill: #1BA6AB;
 }
 
+hr.border {
+    border: 3px var(--bs-border-style) #1BA6AB !important;
+}
+
+.contact-card {
+    width: 450px;
+    text-align: center;
+    font-size: 25px;
+    background-color: rgba(255, 255, 255, 0.684);
+    color: white;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.684);
+}
+
+.contact-card:hover {
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+}
 
 .btn {
     background-color: #1BA6AB;
     border-color: #1BA6AB;
+    border-radius: 20px;
+    font-size: 20px;
+
 }
 
 .btn:hover {
-    background-color: #1BA6AB;
-    border-color: #1BA6AB;
-}
-
-
-
-.card-container {
-    display: block;
-    text-align: center;
+    background-color: #00B8C6;
+    border-color: #00B8C6;
 }
