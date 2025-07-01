@@ -48,3 +48,37 @@
     justify-content: center;
     flex-wrap: wrap;
 }
+
+.filter-img {
+    border-radius: 50px;
+}
+
+.filter-img:hover {
+    padding: 3px;
+    border: 2px solid #00798A;
+}
+
+.filter-div {
+    display: flex;
+    justify-content: center;
+}
+
+.filter-item {
+    max-width: 200px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.filter-div p {
+    text-align: center;
+}
+
+img.current {
+    padding: 3px;
+    border: 2px solid #00798A;
+}
+
+p.current {
+    color: #00798A;
+    font-weight: 700;
+}
