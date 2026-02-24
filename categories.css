@@ -8,17 +8,6 @@
     border-color: cyan;
 }
 
-.filter1 {
-    margin-right: 5px;
-    background-color: green !important;
-    border-color: green !important;
-}
-
-.filter1:hover {
-    background-color: green !important;
-    border-color: green !important;
-}
-
 .back1 {
     cursor: pointer;
     margin-left: 10px;
@@ -61,6 +50,10 @@
 .filter-div {
     display: flex;
     justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    backdrop-filter: blur(10px);
 }
 
 .filter-item {
