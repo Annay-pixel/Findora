@@ -19,52 +19,64 @@
             integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
             crossorigin="anonymous"
         >
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="index.css">
         <link rel="stylesheet" href="style.css">
         <link rel="shortcut icon" href="./Images/favicon.ico" type="image/x-icon">
     </head>
     <body class="bg">
-        <div class="i">
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="./index.html">
-                        <img
-                            src="./Images/Logo.png"
-                            alt
-                            height="100px"
-                            class="nav-logo"
-                        >
-                    </a>
-                    <button
-                        class="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent"
-                        aria-controls="navbarSupportedContent"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">
+                    <img
+                        src="./Images/Logo.png"
+                        alt
+                        height="100px"
+                        class="nav-logo"
                     >
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <span class="me-auto"></span>
-                        <ul class="nav nav-underline mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a href="./index.html" class="nav-link active custom-underline" aria-current="page">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="./about.html" class="nav-link custom-underline">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="./contact.html" class="nav-link custom-underline">ReachOut</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="./donation.html" class="nav-link custom-underline">Donate</a>
-                            </li>
-                        </ul>
-                    </div>
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <span class="me-auto"></span>
+                    <ul class="nav nav-underline mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="./index.html" class="nav-link active custom-underline" aria-current="page">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./about.html" class="nav-link custom-underline">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./contact.html" class="nav-link custom-underline">ReachOut</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a href="./donation.html" class="nav-link custom-underline">Donate</a>
+                        </li> -->
+                    </ul>
                 </div>
-            </nav>
+            </div>
+        </nav>
+        <marquee truespeed scrolldelay="30">
+            <h2 class="lato-regular">🔥The one-stop solution to all your website needs🔥</h2>
+        </marquee>
+        <div class="intro">
+            <h1 class="lato-regular">
+                Welcome to Findora !
+            </h1>
+            <h3>Choose a category from below</h3>
+        </div>
+        <div class="i">
             <div class="div-btn">
                 <a href="#a" class="choice">
                     <img src="./Images/A.png" alt="" width="200">
@@ -80,64 +92,68 @@
                 </a>
             </div>
         </div>
-        <div class="a" id="a">
-            <br>
-            <br>
-            <br>
-            <br>
-            <div class="txt">
-                <h2>Apparels</h2>
-                <p class="p">We’ve handpicked the trendiest apparel websites for your style needs</p>
-            </div>
-            <div class="div-align-right">
-                <a href="apparels.html">
-                    <button type="button" class="btn ex-btn btn-outline-light">EXPLORE NOW</button>
-                </a>
-            </div>
-        </div>
-        <div class="ac" id="ac">
-            <br>
-            <br>
-            <br>
-            <br>
-            <div class="txt1 div-align-right">
-                <h2>Accessories</h2>
-                <p class="p">Find jewelry, bags, and more at these curated accessory sites</p>
-            </div>
-            <div class="">
-                <a href="accesories.html">
-                    <button type="button" class="btn ex-btn1 btn-outline-light">EXPLORE NOW</button>
-                </a>
+        <div class="category-container">
+            <div class="a" id="a">
+                <div class="moving-rectangle animate"></div>
+                <div class="container">
+                    <div class="txt">
+                        <h3 class="category-head lato-regular">Apparels</h3>
+                        <p class="p">We’ve handpicked the trendiest apparel websites for your style needs</p>
+                    </div>
+                    <div class="div-align-right">
+                        <a href="apparels.html">
+                            <button type="button" class="btn ex-btn btn-outline-light">EXPLORE NOW</button>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="w" id="w">
-            <br>
-            <br>
-            <br>
-            <br>
-            <div class="txt">
-                <h2>Watches</h2>
-                <p class="p">Explore top-rated websites for premium and affordable watches</p>
-            </div>
-            <div class="div-align-right">
-                <a href="watches.html">
-                    <button type="button" class="btn ex-btn btn-outline-light">EXPLORE NOW</button>
-                </a>
+        <div class="category-container">
+            <div class="ac" id="ac">
+                <div class="moving-rectangle-right animate-right"></div>
+                <div class="container">
+                    <div class="txt1 div-align-right">
+                        <h3 class="category-head lato-regular">Accessories</h3>
+                        <p class="p">Find jewelry, bags, and more at these curated accessory sites</p>
+                    </div>
+                    <div class="">
+                        <a href="accesories.html">
+                            <button type="button" class="btn ex-btn1 btn-outline-light">EXPLORE NOW</button>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="j" id="j">
-            <br>
-            <br>
-            <br>
-            <br>
-            <div class="txt1 div-align-right">
-                <h2>Jewellery</h2>
-                <p class="p">Find jewelry, bags, and more at these curated accessory sites</p>
+        <div class="category-container">
+            <div class="w" id="w">
+                <div class="moving-rectangle animate"></div>
+                <div class="container">
+                    <div class="txt">
+                        <h3 class="category-head lato-regular">Watches</h3>
+                        <p class="p">Explore top-rated websites for premium and affordable watches</p>
+                    </div>
+                    <div class="div-align-right">
+                        <a href="watches.html">
+                            <button type="button" class="btn ex-btn btn-outline-light">EXPLORE NOW</button>
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="">
-                <a href="jewellery.html">
-                    <button type="button" class="btn ex-btn1 btn-outline-light">EXPLORE NOW</button>
-                </a>
+        </div>
+        <div class="category-container">
+            <div class="j" id="j">
+                <div class="moving-rectangle-right animate-right"></div>
+                <div class="container">
+                    <div class="txt1 div-align-right">
+                        <h3 class="category-head lato-regular">Jewellery</h3>
+                        <p class="p">Find jewelry, bags, and more at these curated accessory sites</p>
+                    </div>
+                    <div class="">
+                        <a href="jewellery.html">
+                            <button type="button" class="btn ex-btn1 btn-outline-light">EXPLORE NOW</button>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
         <footer>
@@ -163,7 +179,16 @@
                     width="70%"
                 >
             </center>
+            <ul class="f-ul">
+                <li>
+                    <a href="/PP.html">Privacy Policy</a>
+                </li>
+                <li>
+                    <a href="/T&C.html">Terms and Conditions</a>
+                </li>
+            </ul>
         </footer>
+        <script src="/index.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
 </html>

@@ -1,19 +1,79 @@
 .a {
     background-image: url("./Images/Apparels.png");
-    height: 80vh;
-    width: 100%;
+    height: 70vh;
+    width: 94%;
+    border-radius: 41px;
+    margin: auto;
+    position: relative;
 }
 
+marquee {
+    background-color: black;
+    height: 40px;
+}
+
+.intro {
+    color: #1BA6AB;
+    text-align: center;
+}
+
+.intro h1 {
+    font-size: 80px;
+}
+
+.into h2 {
+    font-size: 40px;
+}
 
 body {
     color: white !important;
+    background-image: none !important;
 }
 
 
+.moving-rectangle {
+    background-color: rgb(22, 21, 21);
+    width: 30%;
+    height: inherit;
+    transition: margin-right .5s ease-in;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    border-radius: 41px;
+}
+
+.moving-rectangle-right {
+    background-color: rgb(22, 21, 21);
+    width: 30%;
+    height: inherit;
+    transition: margin-left .5s ease-in;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    border-radius: 41px;
+}
+
+.in-view {
+    margin-right: 70%;
+}
+
+.in-view-right {
+    margin-left: 70%;
+}
 
 
+/* Contain the button section within its div */
 .i {
+    display: flex;
     background-image: url("./Images/IntroBg.png");
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    width: 94%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 41px;
+    margin: 30px auto 70px auto;
 }
 
 .div-btn {
@@ -24,27 +84,46 @@ body {
     justify-content: center;
 }
 
-h2 {
-    font-size: 100px;
+.category-head {
+    margin-top: 10px;
+    font-size: 70px;
+}
+
+.category-container {
+    background-color: rgb(43, 41, 41);
+    height: 104vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px 0px;
+}
+
+.container {
+    position: absolute;
+    margin-top: 12vh;
 }
 
 .p {
-    font-size: 50px;
+    font-size: 30px;
     text-wrap: 2px;
     display: inline;
 }
 
 .div-align-right {
     text-align: right;
+    position: relative;
+    z-index: 2;
 }
 
 .txt {
     margin-left: 20px;
     margin-right: 60vh;
+    position: relative;
+    z-index: 2;
 }
 
 .txt1 {
-    margin-right: 20px;
+    margin-right: -90px;
     margin-left: 60vh;
 }
 
@@ -82,27 +161,34 @@ h2 {
 
 .w {
     background-image: url("./Images/Watch.png");
-    height: 80vh;
-    width: 100%;
+    height: 70vh;
+    width: 94%;
+    margin: 65px auto;
+    border-radius: 41px;
+    position: relative;
+
 }
 
 .ac {
     background-image: url("./Images/Accessories.png");
-    height: 80vh;
-    width: 100%;
+    height: 70vh;
+    width: 94%;
+    margin: 65px auto;
+    border-radius: 41px;
+    position: relative;
+
 }
 
 .j {
     background-image: url("./Images/Jewellery.png");
-    height: 80vh;
-    width: 100%;
+    height: 70vh;
+    width: 94%;
+    position: relative;
+    margin: 65px auto;
+    border-radius: 41px;
+
 }
 
-.i {
-    align-items: center;
-    height: 100vh;
-    width: 100%;
-}
 
 .choice {
     margin-right: 50px;
@@ -174,6 +260,7 @@ h2 {
 
 /* Fix background images centering */
 .a,
+.i,
 .ac,
 .w,
 .j {
@@ -182,14 +269,7 @@ h2 {
     background-repeat: no-repeat;
 }
 
-/* Contain the button section within its div */
-.i {
-    align-items: center;
-    height: 100vh;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
+
 
 
 /* Default large size for desktops */

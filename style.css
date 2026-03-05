@@ -14,7 +14,7 @@
     left: 0;
     height: 2.3px;
     width: 0;
-    background-color: #0189BA;
+    background-color: #00798A;
     transition: width 0.3s ease-in-out;
 }
 
@@ -26,14 +26,14 @@
 /* Keep full underline if link is active */
 .custom-underline.active::after {
     width: 100%;
-    background-color: cyan;
+    background-color: #0189BA;
 }
 
 /* But still animate on hover even if active (restart animation) */
 .custom-underline.active:hover::after {
     width: 0;
     animation: swipeUnderline 0.4s forwards;
-    background-color: #0189BA;
+    background-color: #00798A;
 }
 
 @keyframes swipeUnderline {
@@ -48,12 +48,12 @@
 }
 
 .nav-link.active {
-    color: cyan !important;
+    color: #0189BA !important;
 }
 
 
 .nav-link:hover {
-    color: #0189BA !important;
+    color: #00798A !important;
 }
 
 .nav-link {
@@ -62,15 +62,16 @@
 
 nav,
 footer {
-    background: rgba(0, 0, 0, 0.4);
+    background-color: rgb(61, 58, 58);
+    /* background: rgb(0, 0, 0);
     backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); */
     color: #ffffff;
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.689);
 }
 
 nav {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .navbar-toggler {
@@ -83,14 +84,15 @@ footer {
 }
 
 body.bg {
-    background-image: url("./Images/CardBg.png");
-    background-size: cover;
+    /* background-image: url("./Images/CardBg.png"); */
+    background-color: #ffffff;
+    /* background-size: cover; */
     /* Keeps aspect ratio, fills screen */
-    background-position: center center;
+    /* background-position: center center; */
     /* Keeps image centered */
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     /* Prevents tiling */
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     /* Creates a subtle parallax effect (optional) */
     font-family: 'Poppins', sans-serif;
     /* Ensures consistent branding */
@@ -168,4 +170,64 @@ footer {
 
 .warn {
     margin: 0px 10%;
+}
+
+.lato-thin {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lato-black {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.lato-thin-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.lato-light-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.lato-regular-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.lato-bold-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.lato-black-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: italic;
 }

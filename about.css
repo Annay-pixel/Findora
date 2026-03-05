@@ -21,7 +21,7 @@
 
 .about-container p {
     font-size: 25px;
-    color: #D8E2E6;
+    color: #000000;
 }
 
 .about-container ul {
@@ -31,4 +31,5 @@
 .about-container ul li {
     margin: 10px 0;
     font-size: 25px;
+    color: black;
 }
