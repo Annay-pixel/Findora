@@ -84,19 +84,11 @@ footer {
 }
 
 body.bg {
-    /* background-image: url("./Images/CardBg.png"); */
     background-color: #ffffff;
-    /* background-size: cover; */
-    /* Keeps aspect ratio, fills screen */
-    /* background-position: center center; */
-    /* Keeps image centered */
-    /* background-repeat: no-repeat; */
-    /* Prevents tiling */
-    /* background-attachment: fixed; */
-    /* Creates a subtle parallax effect (optional) */
+
     font-family: 'Poppins', sans-serif;
-    /* Ensures consistent branding */
-    color: #F0F6F8;
+
+    /* color: #F0F6F8; */
     scroll-behavior: smooth;
 }
 
