@@ -194,29 +194,49 @@ body {
     margin-right: 50px;
 }
 
-/* Responsive adjustments */
+/* ── Responsive adjustments ── */
+
+/* Tablet: up to 1024px */
 @media (max-width: 1024px) {
     h2 {
         font-size: 60px;
     }
 
-    .p {
-        font-size: 28px;
+    .intro h1 {
+        font-size: 52px;
     }
 
+    .category-head {
+        font-size: 48px;
+    }
+
+    .p {
+        font-size: 22px;
+    }
+
+    /* Reset vh-based margins so text doesn't overflow */
     .txt {
         margin-right: 20px;
+        margin-left: 20px;
     }
 
     .txt1 {
         margin-left: 20px;
+        margin-right: 20px;
     }
 
-    .ex-btn,
+    .ex-btn {
+        padding: 15px 25px;
+        font-size: 18px;
+        margin-right: 10px;
+        margin-top: 4vh;
+    }
+
     .ex-btn1 {
         padding: 15px 25px;
         font-size: 18px;
-        margin: 20px 0;
+        margin-left: 10px;
+        margin-top: 4vh;
     }
 
     .div-btn {
@@ -227,33 +247,228 @@ body {
     .choice {
         margin-right: 0;
     }
+
+    /* Category cards: taller to fit content on tablet */
+    .a, .ac, .w, .j {
+        height: 80vh;
+    }
+
+    .category-container {
+        height: auto;
+        min-height: 80vh;
+        padding: 40px 0;
+    }
+
+    .container {
+        margin-top: 8vh;
+    }
 }
 
-@media (max-width: 600px) {
-    h2 {
+/* Phablet / large phone: up to 768px */
+@media (max-width: 768px) {
+    .intro h1 {
         font-size: 40px;
     }
 
+    .intro h3 {
+        font-size: 18px;
+    }
+
+    .category-head {
+        font-size: 36px;
+        margin-top: 0;
+    }
+
     .p {
-        font-size: 20px;
+        font-size: 16px;
+        display: block;
+    }
+
+    /* Completely neutralise the vh-based side margins */
+    .txt {
+        margin-left: 16px;
+        margin-right: 16px;
+        text-align: left;
+    }
+
+    .txt1 {
+        margin-left: 16px;
+        margin-right: 16px;
+        text-align: right;
+    }
+
+    /* Stack explore button naturally below text */
+    .ex-btn {
+        margin-right: 16px;
+        margin-left: 0;
+        margin-top: 16px;
+        padding: 12px 24px;
+        font-size: 16px;
+    }
+
+    .ex-btn1 {
+        margin-left: 16px;
+        margin-right: 0;
+        margin-top: 16px;
+        padding: 12px 24px;
+        font-size: 16px;
+    }
+
+    /* Make cards auto-height so content never overflows */
+    .a, .ac, .w, .j {
+        height: auto;
+        min-height: 320px;
+        padding-bottom: 32px;
+    }
+
+    .category-container {
+        height: auto;
+        min-height: unset;
+        padding: 30px 0;
+        margin: 80px 0;
+    }
+
+    /* Anchor the content block inside the card */
+    .container {
+        position: relative;
+        margin-top: 24px;
+        width: 100%;
+    }
+
+    /* Shrink the decorative sliding rectangle on smaller screens */
+    .moving-rectangle,
+    .moving-rectangle-right {
+        width: 20%;
     }
 
     .div-btn {
-        flex-direction: column;
-        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
     }
 
-    .txt,
+    .choice img {
+        max-width: 100px;
+    }
+
+    /* Hero intro section height */
+    .i {
+        height: auto;
+        min-height: 220px;
+        padding: 40px 10px;
+    }
+}
+
+/* Phone: up to 480px */
+@media (max-width: 480px) {
+    .intro h1 {
+        font-size: 30px;
+    }
+
+    .intro h3 {
+        font-size: 15px;
+    }
+
+    .category-head {
+        font-size: 28px;
+    }
+
+    .p {
+        font-size: 14px;
+    }
+
+    /* Full-width cards, no side margin issues */
+    .a, .ac, .w, .j {
+        width: 96%;
+        border-radius: 24px;
+        min-height: 280px;
+        padding-bottom: 28px;
+    }
+
+    .moving-rectangle,
+    .moving-rectangle-right {
+        border-radius: 24px;
+        width: 15%;
+    }
+
+    .txt {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
     .txt1 {
-        margin: 10px;
-        text-align: center;
+        margin-left: 12px;
+        margin-right: 12px;
     }
 
     .ex-btn,
     .ex-btn1 {
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
+        padding: 10px 18px;
+        font-size: 14px;
+        margin: 12px 12px 0 12px;
+        display: inline-block;
+    }
+
+    .category-container {
+        margin: 50px 0;
+        padding: 20px 0;
+    }
+
+    .div-align-right {
+        text-align: left;
+    }
+
+    .choice img {
+        max-width: 85px;
+    }
+
+    .i {
+        min-height: 180px;
+        padding: 30px 8px;
+        border-radius: 24px;
+        margin-bottom: 40px;
+    }
+
+    .div-btn {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 14px;
+        justify-content: center;
+    }
+}
+
+/* Small phone: up to 375px */
+@media (max-width: 375px) {
+    .intro h1 {
+        font-size: 26px;
+    }
+
+    .category-head {
+        font-size: 24px;
+    }
+
+    .p {
+        font-size: 13px;
+    }
+
+    .choice img {
+        max-width: 72px;
+    }
+
+    .a, .ac, .w, .j {
+        border-radius: 18px;
+        min-height: 260px;
+    }
+
+    .moving-rectangle,
+    .moving-rectangle-right {
+        border-radius: 18px;
+    }
+
+    .ex-btn,
+    .ex-btn1 {
+        font-size: 12px;
+        padding: 8px 14px;
     }
 }
 
@@ -277,38 +492,4 @@ body {
     max-width: 200px;
     height: auto;
     display: block;
-}
-
-@media (max-width: 1024px) {
-    .choice img {
-        max-width: 130px;
-    }
-
-
-}
-
-@media (max-width: 768px) {
-    .choice img {
-        max-width: 100px;
-    }
-
-    .div-btn {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 20px;
-    }
-}
-
-@media (max-width: 480px) {
-    .choice img {
-        max-width: 85px;
-    }
-
-
-}
-
-@media (max-width: 375px) {
-    .choice img {
-        max-width: 85px;
-    }
 }
