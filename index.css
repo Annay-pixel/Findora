@@ -163,7 +163,7 @@ body {
     background-image: url("./Images/Watch.png");
     height: 70vh;
     width: 94%;
-    margin: 65px auto;
+    margin: auto;
     border-radius: 41px;
     position: relative;
 
@@ -173,7 +173,7 @@ body {
     background-image: url("./Images/Accessories.png");
     height: 70vh;
     width: 94%;
-    margin: 65px auto;
+    margin: auto;
     border-radius: 41px;
     position: relative;
 
@@ -184,7 +184,7 @@ body {
     height: 70vh;
     width: 94%;
     position: relative;
-    margin: 65px auto;
+    margin: auto;
     border-radius: 41px;
 
 }
@@ -199,7 +199,7 @@ body {
 /* Tablet: up to 1024px */
 @media (max-width: 1024px) {
     h2 {
-        font-size: 60px;
+        font-size: 35px;
     }
 
     .intro h1 {
@@ -249,7 +249,10 @@ body {
     }
 
     /* Category cards: taller to fit content on tablet */
-    .a, .ac, .w, .j {
+    .a,
+    .ac,
+    .w,
+    .j {
         height: 80vh;
     }
 
@@ -288,17 +291,22 @@ body {
     .txt {
         margin-left: 16px;
         margin-right: 16px;
-        text-align: left;
+        text-align: center;
+    }
+
+    .div-align-right {
+        text-align: center;
     }
 
     .txt1 {
         margin-left: 16px;
         margin-right: 16px;
-        text-align: right;
+        text-align: center;
     }
 
     /* Stack explore button naturally below text */
-    .ex-btn {
+    .ex-btn,
+    .ex-btn1 {
         margin-right: 16px;
         margin-left: 0;
         margin-top: 16px;
@@ -306,19 +314,24 @@ body {
         font-size: 16px;
     }
 
-    .ex-btn1 {
-        margin-left: 16px;
-        margin-right: 0;
-        margin-top: 16px;
-        padding: 12px 24px;
-        font-size: 16px;
-    }
 
     /* Make cards auto-height so content never overflows */
-    .a, .ac, .w, .j {
-        height: auto;
+    .a,
+    .ac,
+    .w,
+    .j {
+
         min-height: 320px;
         padding-bottom: 32px;
+    }
+
+    .moving-rectangle,
+    .moving-rectangle-right {
+        display: none;
+    }
+
+    .container {
+        text-align: center;
     }
 
     .category-container {
@@ -333,12 +346,6 @@ body {
         position: relative;
         margin-top: 24px;
         width: 100%;
-    }
-
-    /* Shrink the decorative sliding rectangle on smaller screens */
-    .moving-rectangle,
-    .moving-rectangle-right {
-        width: 20%;
     }
 
     .div-btn {
@@ -365,6 +372,18 @@ body {
         font-size: 30px;
     }
 
+    marquee {
+        height: 30px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    .nav-logo {
+        width: 108%;
+    }
+
     .intro h3 {
         font-size: 15px;
     }
@@ -378,18 +397,17 @@ body {
     }
 
     /* Full-width cards, no side margin issues */
-    .a, .ac, .w, .j {
-        width: 96%;
+    .a,
+    .ac,
+    .w,
+    .j {
+        width: 94%;
         border-radius: 24px;
         min-height: 280px;
         padding-bottom: 28px;
     }
 
-    .moving-rectangle,
-    .moving-rectangle-right {
-        border-radius: 24px;
-        width: 15%;
-    }
+
 
     .txt {
         margin-left: 12px;
@@ -415,7 +433,7 @@ body {
     }
 
     .div-align-right {
-        text-align: left;
+        text-align: center;
     }
 
     .choice img {
@@ -455,15 +473,15 @@ body {
         max-width: 72px;
     }
 
-    .a, .ac, .w, .j {
+    .a,
+    .ac,
+    .w,
+    .j {
         border-radius: 18px;
         min-height: 260px;
     }
 
-    .moving-rectangle,
-    .moving-rectangle-right {
-        border-radius: 18px;
-    }
+
 
     .ex-btn,
     .ex-btn1 {
